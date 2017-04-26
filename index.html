@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<title>
+  CoffeeShop
+</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.mySlides {display:none}
+.demo {cursor:pointer}
+body {
+    background-color: #f7f2ea;
+}
+
+{font-family: "Times New Roman", Georgia, Serif;}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+.w3-theme-l5 {color:#000 !important; background-color:#f8f4f3 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#e7dcd7 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#d0b8b0 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#b89588 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#a07261 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#6d4d41 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#61443a !important}
+.w3-theme-d3 {color:#fff !important; background-color:#553c33 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#49332c !important}
+.w3-theme-d5 {color:#fff !important; background-color:#3d2b24 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f8f4f3 !important}
+.w3-theme-dark {color:#fff !important; background-color:#3d2b24 !important}
+.w3-theme-action {color:#fff !important; background-color:#3d2b24 !important}
+
+.w3-theme {color:#fff !important; background-color:#795548 !important}
+.w3-text-theme {color:#795548 !important}
+.w3-border-theme {border-color:#795548 !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color:#795548 !important}
+.w3-hover-text-theme:hover {color:#795548 !important}
+.w3-hover-border-theme:hover {border-color:#795548 !important}
+
+{ background-color:  }
+</style>
+<body >
+
+<div class="w3-top">
+  <div class="w3-bar w3-theme-l3 w3-padding  w3-card-2" style="letter-spacing:4px;">
+
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small ">
+     <a href="https://coffeeshoppsu.github.io/CoffeeInfo/" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-brown">Coffee Info</a>
+  <a href="https://coffeeshoppsu.github.io/ranking/" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-brown">Ranking</a>
+  <a href="https://coffeeshoppsu.github.io/about_us/" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-brown">About Us</a>
+    </div>
+  </div>
+</div>
+
+
+ <!-- header -->
+  <header class="w3-display-container w3-content w3-wide " style="max-width:1500px;" id="home">
+  <img src="sad.jpg" width="1500" height="600">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-jumbo w3-text-white"><span class="w3-padding w3-theme-d3 "><b>Coffee Shop @ PSU</b></span></h1>
+  </div>
+</header>
+
+<!-- Baverage-->
+
+<div class="w3-content" style="max-width:1200px">
+  <div class="w3-content" style="max-width:1100px">
+    <div class="w3-row w3-padding-64 ">
+        <div class="w3-col m6  w3-hide-small ">
+          <img src="headbr.jpg" class="w3-round w3-image " alt="Table Setting" style="width:100%" >
+          <img class="mySlides" src="br1.jpg" style="width:100%">
+          <img class="mySlides" src="br2.jpg" style="width:100%">
+          <img class="mySlides" src="fad.jpg" style="width:100%">
+
+          <div class="w3-row-padding w3-section">
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="br1.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo w3-hover-opacity" src="br2.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo w3-hover-opacity" src="fad.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+          </div>
+        </div>
+
+      <div class="w3-col m6 w3-padding-large ">
+          <h1 class="w3-center w3-theme-d1">Baverage</h1><br>
+
+          <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+    	  cillum dolore eu fugiat nulla pariatur.We only use nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    	  ullamcorper suscipit lobortis nisl ut aliquip ex ea ingredients.</p>
+        <a href="https://coffeeshoppsu.github.io/baverage/" target="_blank" onclick="w3_close()" class="w3-btn w3-ripple w3-hover-brown w3-hover-brown ">อ่านต่อ >></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Coffee Art-->
+
+<div class="w3-content" style="max-width:1100px">
+  <div class="w3-row w3-padding-64">
+        <div class="w3-col m6 w3-padding-large">
+            <h1 class="w3-center w3-theme-d1">Coffee Art</h1><br>
+
+            <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+      	  cillum dolore eu fugiat nulla pariatur.We only use nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+      	  ullamcorper suscipit lobortis nisl ut aliquip ex ea ingredients.</p>
+          <a href="https://coffeeshoppsu.github.io/CoffeeArt/" target="_blank" onclick="w3_close()" class="w3-btn w3-ripple w3-hover-brown ">อ่านต่อ >></a>
+        </div>
+        <div class="w3-col m6  w3-hide-small ">
+          <img src="headart.jpg" class="w3-round w3-image " alt="Table Setting" style="width:100%" >
+          <img class="mySlides" src="art.jpg" style="width:100%">
+          <img class="mySlides" src="ar1.jpg" style="width:100%">
+          <img class="mySlides" src="ar3.jpg" style="width:100%">
+
+          <div class="w3-row-padding w3-section">
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="art.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="ar1.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="ar3.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+          </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- cityduck-->
+
+<div class="w3-content" style="max-width:1200px">
+  <div class="w3-content" style="max-width:1100px">
+    <div class="w3-row w3-padding-64">
+        <div class="w3-col m6  w3-hide-small ">
+          <img src="7713.jpg" class="w3-round w3-image " alt="Table Setting" style="width:100%" >
+          <img class="mySlides" src="7712.jpg" style="width:100%">
+          <img class="mySlides" src="aaa.jpg" style="width:100%">
+          <img class="mySlides" src="fad.jpg" style="width:100%">
+
+          <div class="w3-row-padding w3-section">
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="7712.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="aaa.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="fad.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+          </div>
+        </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center w3-theme-d1">City Duck</h1><br>
+
+        <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+  	  cillum dolore eu fugiat nulla pariatur.We only use nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+  	  ullamcorper suscipit lobortis nisl ut aliquip ex ea ingredients.</p>
+      <a href="https://coffeeshoppsu.github.io/CityDuck/" target="_blank" onclick="w3_close()" class="w3-btn w3-ripple w3-hover-brown ">อ่านต่อ >></a>
+    </div>
+  </div>
+</div>
+
+<!-- lemonhub-->
+
+<div class="w3-content" style="max-width:1100px">
+  <div class="w3-row w3-padding-64">
+        <div class="w3-col m6 w3-padding-large">
+            <h1 class="w3-center w3-theme-d1">Lemon Hub</h1><br>
+
+            <p class="w3-large">The Catering as founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+      	  cillum dolore eu fugiat nulla pariatur.We only use nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+      	  ullamcorper suscipit lobortis nisl ut aliquip ex ea ingredients.</p>
+          <a href="https://coffeeshoppsu.github.io/LemonHub./" target="_blank" onclick="w3_close()" class="w3-btn w3-ripple w3-hover-brown ">อ่านต่อ >></a>
+        </div>
+        <div class="w3-col m6  w3-hide-small ">
+          <img src="7713.jpg" class="w3-round w3-image " alt="Table Setting" style="width:100%" >
+          <img class="mySlides" src="7712.jpg" style="width:100%">
+          <img class="mySlides" src="aaa.jpg" style="width:100%">
+          <img class="mySlides" src="fad.jpg" style="width:100%">
+
+          <div class="w3-row-padding w3-section">
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="7712.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="aaa.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="fad.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+          </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- About Section 5-->
+
+<div class="w3-content" style="max-width:1200px">
+  <div class="w3-content" style="max-width:1100px">
+    <div class="w3-row w3-padding-64">
+        <div class="w3-col m6  w3-hide-small ">
+          <img src="7713.jpg" class="w3-round w3-image " alt="Table Setting" style="width:100%" >
+          <img class="mySlides" src="7712.jpg" style="width:100%">
+          <img class="mySlides" src="aaa.jpg" style="width:100%">
+          <img class="mySlides" src="fad.jpg" style="width:100%">
+
+          <div class="w3-row-padding w3-section">
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="7712.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="aaa.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="fad.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+          </div>
+        </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center w3-theme-d1">First Coffee Shop</h1><br>
+
+        <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+      cillum dolore eu fugiat nulla pariatur.We only use nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+      ullamcorper suscipit lobortis nisl ut aliquip ex ea ingredients.</p>
+      <a href="https://coffeeshoppsu.github.io/about_us/" target="_blank" onclick="w3_close()" class="w3-btn w3-ripple w3-hover-brown ">อ่านต่อ >></a>
+    </div>
+  </div>
+</div>
+
+<!-- About Section 6-->
+
+<div class="w3-content" style="max-width:1100px">
+  <div class="w3-row w3-padding-64">
+        <div class="w3-col m6 w3-padding-large">
+            <h1 class="w3-center w3-theme-d1">First Coffee Shop</h1><br>
+
+            <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+      	  cillum dolore eu fugiat nulla pariatur.We only use nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+      	  ullamcorper suscipit lobortis nisl ut aliquip ex ea ingredients.</p>
+          <a href="https://coffeeshoppsu.github.io/about_us/" target="_blank" onclick="w3_close()" class="w3-btn w3-ripple w3-hover-brown ">อ่านต่อ >></a>
+        </div>
+        <div class="w3-col m6  w3-hide-small ">
+          <img src="7713.jpg" class="w3-round w3-image " alt="Table Setting" style="width:100%" >
+          <img class="mySlides" src="7712.jpg" style="width:100%">
+          <img class="mySlides" src="aaa.jpg" style="width:100%">
+          <img class="mySlides" src="fad.jpg" style="width:100%">
+
+          <div class="w3-row-padding w3-section">
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="7712.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="aaa.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="fad.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+          </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- About Section 7-->
+
+<div class="w3-content" style="max-width:1200px">
+  <div class="w3-content" style="max-width:1100px">
+    <div class="w3-row w3-padding-64">
+        <div class="w3-col m6  w3-hide-small ">
+          <img src="7713.jpg" class="w3-round w3-image " alt="Table Setting" style="width:100%" >
+          <img class="mySlides" src="7712.jpg" style="width:100%">
+          <img class="mySlides" src="aaa.jpg" style="width:100%">
+          <img class="mySlides" src="fad.jpg" style="width:100%">
+
+          <div class="w3-row-padding w3-section">
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="7712.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="aaa.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo  w3-hover-opacity" src="fad.jpg" style="width:100%" onclick="onClick(this)">
+            </div>
+          </div>
+        </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center w3-theme-d1">First Coffee Shop</h1><br>
+
+        <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+  	  cillum dolore eu fugiat nulla pariatur.We only use nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+  	  ullamcorper suscipit lobortis nisl ut aliquip ex ea ingredients.</p>
+      <a href="https://coffeeshoppsu.github.io/about_us/" target="_blank" onclick="w3_close()" class="w3-btn w3-ripple w3-hover-brown ">อ่านต่อ >></a>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal " onclick="this.style.display='none'">
+  <span class="w3-button w3-large  w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent ">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+</body>
+</html>
